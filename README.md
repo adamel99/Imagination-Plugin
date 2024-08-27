@@ -15,16 +15,15 @@ A stereo imager plugin built using JUCE, featuring a 3D sphere visualization to 
 # Usage
 
 ## Parameters
-- **Width: Start at 50% (normal width) and allow a significant increase in width up to 100%.
-Mid/Side: Adjusts the balance between mid and side signals.
-Crossfeed: Controls the amount of signal bleed between channels.
-Stereo Visualization:
-Displays a 3D representation of stereo imaging using OpenGL.
-Shows a circle for maximum stereo imaging or an oval for different stereo balances.
-Responsive to audio peaks and clipping, offering dynamic feedback.
-Contributing
+- Width: Start at 50% (normal width) and allow a significant increase in width up to 100%.
+- Mid/Side: Adjusts the balance between mid and side signals.
+- Crossfeed: Controls the amount of signal bleed between channels.
+## Stereo Visualization:
+- Displays a 3D representation of stereo imaging.
+- Shows a circle for maximum stereo imaging or an oval for different stereo balances.
+- Responsive to audio peaks and clipping, offering dynamic feedback.
 
-Acknowledgments
+## Acknowledgments
 
 Thanks to the JUCE team for providing a robust framework for audio plugin development.
 Special thanks to the OpenGL community for the resources on shaders and 3D rendering.
